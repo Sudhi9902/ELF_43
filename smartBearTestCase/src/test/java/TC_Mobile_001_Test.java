@@ -9,7 +9,7 @@ import org.testng.asserts.SoftAssert;
  * @author sudarshan
  *
  */
-public class TC_001_Test extends Basedata {
+public class TC_Mobile_001_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// TestCase1: Verify that User is able to click On the Mobile Phone
 	// navBarElement

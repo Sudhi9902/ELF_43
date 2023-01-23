@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_008_Test extends Basedata {
+public class TC_Mobile_008_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// TestCase8:Verify that user is able to click on the PageIcon Dropdown
 	public void TC_008_PerPageDropDown() {

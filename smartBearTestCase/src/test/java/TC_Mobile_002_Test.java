@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_002_Test extends Basedata {
+public class TC_Mobile_002_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// Testcase2: Verify that User is able to click on the price Dropdown
 	public void TC_002_MobileRadioButton() {

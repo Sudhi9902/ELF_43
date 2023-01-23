@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_003_Test extends Basedata {
+public class TC_Mobile_003_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// TestCase3: Verify that user is able to click on the price Radio Buttton
 	public void TC_003_MobilePriceRadioButton() throws InterruptedException {

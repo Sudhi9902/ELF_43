@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_004_Test extends Basedata {
+public class TC_Mobile_004_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// TestCase4: Verify that user is able to click on the Rs 25.00 price radio
 	// button

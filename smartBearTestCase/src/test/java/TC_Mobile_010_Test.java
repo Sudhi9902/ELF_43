@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TC_010_Test extends Basedata {
+public class TC_Mobile_010_Test extends Basedata {
 	@Test(groups = "System")
 	//TestCase10:Verify that user able to send the email without using the email
 	//System Testing

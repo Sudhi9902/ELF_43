@@ -10,21 +10,20 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_007_Test extends Basedata {
+public class TC_Mobile_006_Test extends Basedata {
 	@Test(groups = "Functionality")
-	// TestCase7: Verify that user is able to click on the Other Relevence Option
-	public void TC_007_RelevenceDropDown() {
-		String dropTittle = "Newest Arrivals";
+	// TestCase6: Verify That user is able to click on the Relevence dropdown option
+	public void TC_006_RelevenceOptionSelection() {
 		PomRepoForSmartBear psm = new PomRepoForSmartBear(driver);
 		psm.getMobilePhoneNavBar().click();
 		WebElement drop = psm.getRelevencedropDown();
 		drop.click();
 		Reporter.log("Relevence Dropdown is displayed", true);
-		psm.getOptionDrop4().click();
-		Reporter.log("User click other relevence dropdown Options Sucessfully :" + " " + psm.getOptionDrop4().getText(),
+		psm.getOptionDrop2().click();
+		Reporter.log("User click relevence dropdown Options Sucessfully :" + " " + psm.getOptionDrop2().getText(),
 				true);
-		Assert.assertEquals(psm.getOptionDrop4().getText(), dropTittle,
+		String dropTittle = "Name: Z to A";
+		Assert.assertEquals(psm.getOptionDrop2().getText(), dropTittle,
 				"User Not able to click on the optionalDropdown");
 	}
-
 }

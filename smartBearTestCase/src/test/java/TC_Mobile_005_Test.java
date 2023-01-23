@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_005_Test extends Basedata {
+public class TC_Mobile_005_Test extends Basedata {
 	@Test(groups = "Functionality")
 	// Testcase5: Verify that User is able to Click on the Relevence Drop down
 	public void TC_005_RelevenceDropDown() {

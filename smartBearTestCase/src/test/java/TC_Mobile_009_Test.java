@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * @author sudarshan
  *
  */
-public class TC_009_Test extends Basedata {
+public class TC_Mobile_009_Test extends Basedata {
 	String FinalPage = "Shop. Shopping Cart";
 
 	@Test(groups = "System")
