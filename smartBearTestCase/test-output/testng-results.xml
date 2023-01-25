@@ -50,15 +50,15 @@
       <![CDATA[Server Closed Sucessfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-01-21T23:15:21 IST" name="Default suite" finished-at="2023-01-21T23:15:48 IST" duration-ms="26476">
+  <suite started-at="2023-01-25T11:59:10 IST" name="Default suite" finished-at="2023-01-25T11:59:30 IST" duration-ms="19984">
     <groups>
       <group name="System">
-        <method signature="TC_009_Test.TC_009_ClickOnMobilePhone()[pri:0, instance:TC_009_Test@3ba9ad43]" name="TC_009_ClickOnMobilePhone" class="TC_009_Test"/>
+        <method signature="TC_Mobile_009_Test.TC_009_ClickOnMobilePhone()[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" name="TC_009_ClickOnMobilePhone" class="TC_Mobile_009_Test"/>
       </group> <!-- System -->
     </groups>
-    <test started-at="2023-01-21T23:15:21 IST" name="Default test" finished-at="2023-01-21T23:15:48 IST" duration-ms="26476">
-      <class name="TC_009_Test">
-        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TC_009_Test@3ba9ad43]" started-at="2023-01-21T23:15:21 IST" name="browserSetUp" finished-at="2023-01-21T23:15:29 IST" duration-ms="8194" status="PASS">
+    <test started-at="2023-01-25T11:59:10 IST" name="Default test" finished-at="2023-01-25T11:59:30 IST" duration-ms="19984">
+      <class name="TC_Mobile_009_Test">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" started-at="2023-01-25T11:59:10 IST" name="browserSetUp" finished-at="2023-01-25T11:59:18 IST" duration-ms="7411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,14 +81,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method is-config="true" signature="LoginUser()[pri:0, instance:TC_009_Test@3ba9ad43]" started-at="2023-01-21T23:15:29 IST" name="LoginUser" finished-at="2023-01-21T23:15:33 IST" duration-ms="3289" status="PASS">
+        <test-method is-config="true" signature="LoginUser()[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" started-at="2023-01-25T11:59:18 IST" name="LoginUser" finished-at="2023-01-25T11:59:21 IST" duration-ms="3363" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User Login Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginUser -->
-        <test-method signature="TC_009_ClickOnMobilePhone()[pri:0, instance:TC_009_Test@3ba9ad43]" started-at="2023-01-21T23:15:33 IST" name="TC_009_ClickOnMobilePhone" finished-at="2023-01-21T23:15:45 IST" duration-ms="12434" status="PASS">
+        <test-method signature="TC_009_ClickOnMobilePhone()[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" started-at="2023-01-25T11:59:21 IST" name="TC_009_ClickOnMobilePhone" finished-at="2023-01-25T11:59:28 IST" duration-ms="6821" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User Clicking On Mobile Phones Button]]>
@@ -119,21 +119,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_009_ClickOnMobilePhone -->
-        <test-method is-config="true" signature="LogOut()[pri:0, instance:TC_009_Test@3ba9ad43]" started-at="2023-01-21T23:15:45 IST" name="LogOut" finished-at="2023-01-21T23:15:47 IST" duration-ms="2231" status="PASS">
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" started-at="2023-01-25T11:59:28 IST" name="LogOut" finished-at="2023-01-25T11:59:30 IST" duration-ms="2115" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User Logout Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LogOut -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TC_009_Test@3ba9ad43]" started-at="2023-01-21T23:15:47 IST" name="quitBrowser" finished-at="2023-01-21T23:15:48 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TC_Mobile_009_Test@3ba9ad43]" started-at="2023-01-25T11:59:30 IST" name="quitBrowser" finished-at="2023-01-25T11:59:30 IST" duration-ms="230" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Server Closed Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- TC_009_Test -->
+      </class> <!-- TC_Mobile_009_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
